@@ -1,0 +1,174 @@
+/* Theme Name: Kemuri
+Theme URI: http://pawsinteractive.co.uk 
+Version: 1.1 
+Author: Robert Pal */body,html{height:100%}
+
+html{position:relative;min-height:100%}
+
+body{background-color:#fff;color:#212121;font-family:Lato,Helvetica,Arial,sans-serif;font-weight:400px;font-size:18px;padding-top:73px}
+
+
+
+.thumbnail{padding:0;border:0;border-radius:0;}
+
+h2,h1{font-family:Nunito,Helvetica,Arial,sans-serif;font-weight:700px}
+
+#home h2{font-size:1.4em}
+#kemurisense h1{margin-top:50px}
+
+h2{font-size:2em}
+
+.featured h2{margin:20px 0}
+
+h3{font-size:1.6em}
+
+h4{font-size:1.3em}
+
+.btn-primary{padding:10px 30px;color:#fff;font-size:1.6rem;background-color:#3c3}
+
+.btn-primary:active,.btn-primary:hover{background-color:#f1852d}
+
+.img-responsive{display:inline}
+
+.section{position:relative;float:left;width:100%;padding:50px 0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-repeat:no-repeat;background-position:center center}
+
+.separator:after{content:'';position:absolute;bottom:0;width:100%;left:50%;transform:translateX(-50%);border-bottom:1px solid #000}
+
+.navbar-toggle{background-color:#3c3;border:none;margin-top:13px}
+
+.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#f83;border:none}
+
+.navbar-default .navbar-toggle .icon-bar{background-color:#fff}
+
+.navbar-brand{height:auto;max-width:75%;padding-right:0}
+
+.navbar-default{background-color:#fff;border:none;margin-bottom:0;z-index:2000}
+
+.navbar-default .navbar-collapse,.navbar-default .navbar-form{border-color:#f83}
+
+.navbar-nav{margin:0 -15px}
+
+.navbar-default .navbar-nav>li>a{font-family:Lato,Arial,Helvetica,sans-serif;font-weight:400;font-size:.8em;color:#000}
+
+.navbar-default .navbar-nav>li>a:hover{color:#fff;background-color:#f83}
+
+.navbar-default .navbar-nav>.active>a{color:#ec008c;background-color:transparent}
+
+.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#ec008c;background-color:#662d91}
+
+.contact-info .row{margin-bottom:10px}
+
+.honeypot{display:none!important}
+
+
+
+.contactform{margin-top:15px}
+
+.contactform .btn{margin:0}
+
+textarea{resize:none}
+
+.form-control{color:#fff;vertical-align:middle;border:none;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+
+textarea.form-control{padding-top:10px}
+
+.form-control:focus{color:#fff;vertical-align:middle;background-color:#fff;border:none;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+
+.contactform input[type=text],.contactform input[type=email],.contactform select,.contactform textarea{width:100%;padding:5px 10px;background:#424242;border:none;filter:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;text-shadow:none;color:#fff;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+
+.contactform textarea{resize:none;padding-top:10px;margin-bottom:10px}
+
+.contactform label{font-weight:400}
+
+.contactform button[type=submit]{width:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
+
+.contactform button[type=submit]:active,.contactform button[type=submit]:focus{outline:0}
+
+#contactform-message{display:none;float:right;padding:13px;font-size:12px;line-height:1.33}
+
+#contactform-message.loading{display:block;color:#3a87ad;background-color:#d9edf7;border-color:#bce8f1}
+
+#contactform-message.error{color:#b94a48;background-color:#f2dede;border-color:#eed3d7}
+
+#contactform-message.success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6}
+
+
+.contactform .form-group ul {
+	list-style:none; font-size:14px;
+}
+
+
+.contactform input[type=checkbox], .contactform input[type=radio] {
+	margin-right:10px;
+}
+
+
+
+
+#home {
+	background-color:#3c9e31!important;
+	color:#ffffff!important;
+}
+
+#the-issue {
+	background-color:#000000!important;
+	color:#ffffff!important;
+}
+#the-issue.separator:after{
+	border-bottom:1px solid #ffffff!important;
+}
+
+
+#our-solution {
+	background-color:#0a0a0a!important;
+	color:#e5e5e5!important;
+}
+#our-solution.separator:after{
+	border-bottom:1px solid #e5e5e5!important;
+}
+
+
+#smart {
+	background-color:#000000!important;
+	color:#ffffff!important;
+}
+
+#kemurisense {
+	background-color:#f1852d!important;
+	color:#ffffff!important;
+}
+
+#social-care.separator:after{
+	border-bottom:1px solid !important;
+}
+
+
+#kemuri {
+	background-color:#33cc33!important;
+	color:#ffffff!important;
+}
+
+#contact {
+	background-color:#191919!important;
+	color:#ffffff!important;
+}
+
+
+@media (min-width:992px){
+	.separator:after{width:778px}
+	.container{width:970px}
+	.navbar-brand{max-width:100%}
+	.navbar-default .navbar-nav>li{padding-top:30px;padding-bottom:30px}
+	.navbar-default .navbar-nav>li>a{border-right:1px solid #000;line-height:100%;padding:0 15px}
+	.navbar-default .navbar-nav>li:last-child>a{border:none}
+	.navbar-default .navbar-nav>.active>a span{border-bottom:2px solid #ec008c}
+	.navbar-default .navbar-nav>li>a:hover{color:#222;background-color:transparent}
+	.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#ec008c;background-color:transparent}
+}
+
+
+
+
+
+
+
