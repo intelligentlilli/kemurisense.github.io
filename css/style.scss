@@ -108,53 +108,31 @@ textarea.form-control{padding-top:10px}
 
 
 
-#home {
-	background-color:#3c9e31!important;
-	color:#ffffff!important;
+.section.separator:after{
+	border-bottom:1px solid !important;
 }
-
-#the-issue {
-	background-color:#000000!important;
-	color:#ffffff!important;
+.section-black.separator:after, .section-orange.separator:after, .section-green.separator:after   {
+	border-bottom-color: #e5e5e5!important;
 }
-#the-issue.separator:after{
-	border-bottom:1px solid #ffffff!important;
-}
-
-
-#our-solution {
+.section-black {
 	background-color:#0a0a0a!important;
 	color:#e5e5e5!important;
 }
-#our-solution.separator:after{
-	border-bottom:1px solid #e5e5e5!important;
-}
-
-
-#smart {
-	background-color:#000000!important;
-	color:#ffffff!important;
-}
-
-#kemurisense {
+.section-orange {
 	background-color:#f1852d!important;
 	color:#ffffff!important;
 }
-
-#social-care.separator:after{
-	border-bottom:1px solid !important;
-}
-
-
-#kemuri {
-	background-color:#33cc33!important;
+.section-green {
+	background-color:#33CC33!important;
 	color:#ffffff!important;
 }
-
-#contact {
-	background-color:#191919!important;
-	color:#ffffff!important;
+.section-white {
+	background-color:#FFF;
+	color:#0a0a0a;
 }
+
+
+
 
 
 @media (min-width:992px){
