@@ -83,7 +83,16 @@ contactform input[type=checkbox], .contactform input[type=radio] {
 }
 
 
-
+.mugshot img {
+	width:8em; height:8em;
+	padding:1em;
+}
+.mugshot.right {
+	float:right
+}
+.mugshot.left {
+	float:left
+}
 
 
 
