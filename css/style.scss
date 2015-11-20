@@ -83,9 +83,13 @@ contactform input[type=checkbox], .contactform input[type=radio] {
 }
 
 
-
+.team-members {list-style:none; padding-left:0;}
+.team-members h2 {
+	margin-left: -1em;
+}
 .team-members h2 span {
 	font-size: 50%;
+	color:#888;
 }
 .mugshot {
 	clear:both;
