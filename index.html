@@ -27,7 +27,7 @@ layout: default
 
 
 
-<div class="section section-green" id="home" style="background-image: url({{ site.baseurl }}images/header.jpg); ">
+<div class="section section-green" id="home" style="background-image: url({{ site.baseurl }}/images/header.jpg); ">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-push-2 text-center">
@@ -40,16 +40,26 @@ layout: default
 </div>
 
 
-<div class="section section-black separator" id="the-issue">
+<div class="section section-black separator hidden" id="video-container">
   <div class="container featured">
     <div class="row">
       <div class="col-md-10 col-md-push-1">
         <div class="row">
           <div class="col-md-12">
-            <div class=" video-responsive-container">
 
-              <iframe class="video-responsive"  src="https://player.vimeo.com/video/148482822" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
+            <div id="vidya" class="video-responsive-container"></div>
+
+
+            <script>
+              jQuery("#video-container").removeClass("hidden"); // only show if js
+
+              if (Modernizr.video) {
+                jQuery("#vidya").html('<video class="video-responsive" controls poster="{{ site.baseurl }}/images/video-poster.jpg"><source src="{{ site.baseurl }}/videos/video-x-small.mp4" type="video/mp4" /></video>');
+              } else {
+                jQuery("#vidya").html('<iframe class="video-responsive"  src="https://player.vimeo.com/video/148482822" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+              }
+            </script>
+
           </div>
         </div>
       </div>
