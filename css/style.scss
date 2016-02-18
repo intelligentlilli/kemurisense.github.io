@@ -42,6 +42,25 @@ h4{font-size:1.3em}
 
 
 
+.path-choice {
+	display:block;
+	background: rgba(255,255,255,0.75);
+	border-radius: 2em;
+	margin:0px 1em;
+	padding:0.5em;
+	color:#444;
+    transition: all 0.2s ease-in-out;
+}
+.path-choice h3 {
+	margin:0.5em;
+}
+.path-choice:hover {
+	text-decoration:none;
+	background: rgba(255,255,255,0.9);
+	color:#3c3;
+}
+
+
 
 
 .navbar-toggle{background-color:#3c3;border:none;margin-top:13px}

@@ -1,6 +1,6 @@
 jQuery.noConflict();
 jQuery( document ).ready(function( $ ) {
-     $('.nav, .scroller').bind('click', 'ul li a', function(event) {
+     $('.nav .scroller').bind('click', 'ul li a', function(event) {
         $.scrollTo(event.target.hash,550, {offset:-73});
 		console.log(event.target.hash);
 		 event.preventDefault();
