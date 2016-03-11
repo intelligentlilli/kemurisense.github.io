@@ -163,4 +163,21 @@ textarea.form-control{padding-top:10px}
 
 
 
-
+footer {
+	clear:both;
+	padding-top:2em;
+	padding-bottom:1em;
+	background-color:#212121;
+	color:#666;
+}
+footer a {
+	color:#666;
+}
+footer ul {
+	list-style:none;
+	padding:0;
+}
+footer li {
+	display:inline-block;
+	padding:0px 1em;
+}
