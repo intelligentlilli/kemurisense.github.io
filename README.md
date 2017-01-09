@@ -14,4 +14,8 @@ and for localhost serving use
 
 ## Notes for upgrading
 
-Built using the github pages gem.  Currently there is a little hiccup with versioning, so be sure to check the version in the Gemfile.
+Built using the github pages gem.  Check the version number if there are issues (may need to downgrade)
+
+Sometimes there can be problems with the bundled gems.  A good thing to run is
+
+    bundle clean --force
