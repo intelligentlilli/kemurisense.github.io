@@ -28,6 +28,13 @@
 }
 
 
+/*
+The k-icons was generated at http://fontello.com/ and is a cut down set of glyphs that we use on the website
+
+If we need to update and add new icons, regenerate the entire thing at fontello, then replace the /fonts/k-icons.*
+files in the website.
+*/
+
 @font-face {
   font-family: 'Kemuri Icon';
   src: url('../fonts/k-icons.woff2') format('woff2'),
