@@ -137,7 +137,9 @@ textarea.form-control{padding-top:10px}
 
 .team-members {list-style:none; padding-left:0;}
 .team-members h2 {
-	margin-left: -1em;
+	margin-top: 2em;
+	margin-left: 1em;
+	font-size:1.5em;
 }
 .team-members h2 span {
 	font-size: 50%;
@@ -164,6 +166,11 @@ textarea.form-control{padding-top:10px}
 	.separator:after{width:778px}
 	.container{width:970px}
 	.navbar-brand{max-width:100%}
+	.team-members h2 {
+		margin-top: 1em;
+		margin-left: -1em;
+		font-size:1.8em;
+	}
 	.navbar-default .navbar-nav>li{padding-top:30px;padding-bottom:30px}
 	.navbar-default .navbar-nav>li>a{border-right:1px solid #000;line-height:100%;padding:0 15px}
 	.navbar-default .navbar-nav>li:last-child>a{border:none}
@@ -171,6 +178,8 @@ textarea.form-control{padding-top:10px}
 	.navbar-default .navbar-nav>li>a:hover{color:#222;background-color:transparent}
 	.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#ec008c;background-color:transparent}
 }
+
+
 
 
 
