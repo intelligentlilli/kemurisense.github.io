@@ -21,20 +21,28 @@ body{
 
 .thumbnail{padding:0;border:0;border-radius:0; background-color: transparent}
 
-h1,h2{font-family:Nunito,Helvetica,Arial,sans-serif;font-weight:700}
+h1,h2{
+  font-family:Nunito,Helvetica,Arial,sans-serif;font-weight:700
+}
 
 #home h2{font-size:1.4em}
 #kemurisense h1{margin-top:50px}
 
-h2{font-size:2em}
-.featured h2{margin:20px 0}
-h3{font-size:1.6em}
-h4{font-size:1.3em}
+h2 {font-size:1.7em}
+.featured h2 {margin:20px 0}
+h3 {font-size:1.5em}
+h4 {font-size:1.3em}
 
-.btn-primary{padding:10px 30px;color:#fff;font-size:1.6rem;background-color:#3c3}
-.btn-primary:active,.btn-primary:hover{background-color:#f1852d}
 
-.img-responsive{display:inline}
+ul {
+	list-style:none;
+}
+
+
+.btn-primary {padding:10px 30px;color:#fff;font-size:1.6rem;background-color:#3c3}
+.btn-primary:active,.btn-primary:hover {background-color:#f1852d}
+
+.img-responsive {display:inline}
 
 .section{position:relative;float:left;width:100%;padding:50px 0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-repeat:no-repeat;background-position:center center}
 
