@@ -181,6 +181,15 @@ textarea.form-control{padding-top:10px}
 
 
 
+.download-assets {
+	width:100%
+}
+
+.download-assets tbody::after {
+  content: '';
+  display: block;
+  height: 2em;
+}
 
 
 .other-company-logo {
