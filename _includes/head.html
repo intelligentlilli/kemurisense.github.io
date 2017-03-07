@@ -25,18 +25,5 @@
 
   <meta name="google-site-verification" content="Obc0bgbEMdjwcnaOLTG5XozG1XfECB9KlcVRVYZIXFY" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "url": "http://www.kemurisense.com/",
-    "logo": "http://www.kemurisense.com/images/logos/kemuri-logo.jpg",
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+44-020-79281216",
-      "contactType": "customer support",
-      "areaServed": "GB"
-    }]
-  }
-  </script>
+  {% if page.additionalHeadContent %}{{ page.additionalHeadContent }}{% endif %}
 </head>
