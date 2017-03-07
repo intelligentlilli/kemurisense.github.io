@@ -4,11 +4,18 @@
 @charset "utf-8";
 
 
-body,html{height:100%}
+body, html{
+  height:100%
+}
 
 html{position:relative;min-height:100%}
 
-body{background-color:#fff;color:#212121;font-family:Lato,Helvetica,Arial,sans-serif;font-weight:400;font-size:18px;padding-top:73px}
+body{
+  background-color:#212121;
+  color:#333;
+  font-family:Lato,Helvetica,Arial,sans-serif;
+  font-weight:400;font-size:18px;padding-top:73px
+}
 
 
 
@@ -208,11 +215,20 @@ footer {
 footer a {
 	color:#666;
 }
+footer h2 {
+	text-align:left;
+	font-size:20px
+}
 footer ul {
 	list-style:none;
 	padding:0;
+	text-align:left;
+}
+footer .k-icon {
+	display: inline-block;
+	width:1.5em;
 }
 footer li {
-	display:inline-block;
+	display:block;
 	padding:0px 1em;
 }
