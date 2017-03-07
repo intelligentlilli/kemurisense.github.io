@@ -33,6 +33,8 @@ The k-icons was generated at http://fontello.com/ and is a cut down set of glyph
 
 If we need to update and add new icons, regenerate the entire thing at fontello, then replace the /fonts/k-icons.*
 files in the website.
+
+More instructions in /fonts/README.md
 */
 
 @font-face {
