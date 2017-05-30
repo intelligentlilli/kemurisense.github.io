@@ -11,7 +11,7 @@ body, html{
 html{position:relative;min-height:100%}
 
 body{
-  background-color:#212121;
+  background-color:#ccc;
   color:#333;
   font-family:Lato,Helvetica,Arial,sans-serif;
   font-weight:400;font-size:18px;padding-top:73px
@@ -47,13 +47,13 @@ ul {
 .section{position:relative;float:left;width:100%;padding:50px 0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-repeat:no-repeat;background-position:center center}
 
 .separator:after{content:'';position:absolute;bottom:0;width:100%;left:50%;transform:translateX(-50%);border-bottom:1px solid #000}
-.section-black.separator:after, .section-orange.separator:after, .section-green.separator:after   {
+.section-grey.separator:after, .section-orange.separator:after, .section-green.separator:after   {
 	border-bottom-color: #e5e5e5!important;
 }
-.section-black {	background-color:#0a0a0a!important; color:#e5e5e5!important;}
-.section-orange {	background-color:#f1852d!important; color:#ffffff!important;}
-.section-green {	background-color:#33CC33!important; color:#ffffff!important;}
-.section-white {	background-color:#FFFFFF!important; color:#0a0a0a;}
+.section-grey {	background-color:#ddd; color:#333;}
+.section-orange {	background-color:#f1852d; color:#ffffff;}
+.section-green {	background-color:#33CC33; color:#ffffff;}
+.section-white {	background-color:#FFFFFF; color:#0a0a0a;}
 
 
 .k-icon {
@@ -177,6 +177,38 @@ textarea.form-control{padding-top:10px}
 
 
 
+.changes-explanation {
+	color:black;
+}
+.changes-explanation  {
+	text-align: center ;
+}
+.changes-explanation th, .changes-explanation td{
+	padding:5px;
+}
+.changes-explanation th{
+	background-color:#ddd;
+	text-align: center ;
+}
+.changes-explanation .swatch{
+	border:1px solid #fff;
+	width:0.8em;
+	height:0.8em;
+	border-radius: 3px;
+	display:inline-block;
+}
+.changes-explanation .green>td, .changes-explanation .green .swatch {
+	background-color:#3c3;
+}
+.changes-explanation .amber>td, .changes-explanation .amber .swatch {
+	background-color:#f09f54;
+}
+.changes-explanation .red>td, .changes-explanation .red .swatch {
+	color:#eee;
+	background-color:#bc3223;
+}
+
+
 @media (min-width:992px){
 	.separator:after{width:778px}
 	.container{width:970px}
@@ -217,7 +249,7 @@ footer {
 	clear:both;
 	padding-top:4em;
 	padding-bottom:2em;
-	background-color:#212121;
+	background-color:#ccc;
 	color:#666;
 }
 footer a {
