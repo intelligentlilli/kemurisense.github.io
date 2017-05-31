@@ -55,6 +55,8 @@ ul {
 .section-green {	background-color:#33CC33; color:#ffffff;}
 .section-white {	background-color:#FFFFFF; color:#0a0a0a;}
 
+.section-black {	background-color:#222; color:#aaa;}
+
 
 .k-icon {
 	font-family: 'Kemuri Icon';
@@ -117,7 +119,7 @@ textarea{resize:none}
 .form-control{color:#fff;vertical-align:middle;border:none;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
 textarea.form-control{padding-top:10px}
 .form-control:focus{color:#fff;vertical-align:middle;background-color:#fff;border:none;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
-.contactform input[type=text],.contactform input[type=email],.contactform select,.contactform textarea{width:100%;padding:5px 10px;background:#424242;border:none;filter:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;text-shadow:none;color:#fff;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.contactform input[type=text],.contactform input[type=email],.contactform select,.contactform textarea{width:100%;padding:5px 10px;background:#eee;border:none;filter:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;text-shadow:none;color:#fff;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 .contactform textarea{resize:none;padding-top:10px;margin-bottom:10px}
 .contactform label{font-weight:400}
 .contactform button[type=submit]{width:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
