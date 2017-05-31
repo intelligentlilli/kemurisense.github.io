@@ -178,8 +178,15 @@ textarea.form-control{padding-top:10px}
 
 
 .changes-explanation {
+	margin:3em auto;
 	color:black;
+	border-collapse: collapse;
 }
+
+/* this for internal borders */
+.changes-explanation td + td{ border-left: 1px solid white; }
+.changes-explanation tr + tr { border-top: 1px solid white; }
+
 .changes-explanation  {
 	text-align: center ;
 }
