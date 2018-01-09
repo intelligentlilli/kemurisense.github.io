@@ -249,19 +249,44 @@ textarea.form-control{padding-top:10px}
 }
 
 
-.other-company-logo {
-	width:120px;
-	padding-top:1em;
-}
-
 
 footer {
-	clear:both;
-	padding-top:4em;
+	padding-top:2em;
 	padding-bottom:2em;
+	clear:both;
 	background-color:#ccc;
 	color:#666;
 }
+
+
+.partners {
+	background-color: #333;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.partners li {
+	display:inline-block
+}
+
+
+.partners img {
+	width:95px;
+	margin:1em 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.partners img:hover {
+	-webkit-transform: scale(2);
+}
+
+.internal-links {
+
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+
 footer a {
 	color:#999;
 }
