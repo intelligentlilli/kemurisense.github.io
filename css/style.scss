@@ -251,8 +251,8 @@ textarea.form-control{padding-top:10px}
 
 
 footer {
-	padding-top:2em;
-	padding-bottom:2em;
+	padding-top:1em;
+	padding-bottom:0;
 	clear:both;
 	background-color:#ccc;
 	color:#666;
@@ -260,7 +260,7 @@ footer {
 
 
 .partners {
-	background-color: #333;
+	background-color: #777;
 	padding-top:1em;
 	padding-bottom:1em;
 }
@@ -272,7 +272,7 @@ footer {
 
 .partners img {
 	width:95px;
-	margin:1em 20px;
+	margin:1em 30px;
 	-webkit-transition: all 0.3s ease-in-out;
 }
 
@@ -298,6 +298,7 @@ footer ul {
 	list-style:none;
 	padding:0;
 	text-align:left;
+	font-size: 14px;
 }
 footer .k-icon {
 	display: inline-block;
