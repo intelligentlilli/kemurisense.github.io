@@ -13,6 +13,22 @@ description: > # this means to ignore newlines until "baseurl:"
   safer and happier independent living
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.kemurisense.com" # the base hostname & protocol for your site
+
+# A few parameters for jekyll-seo-tag
+lang: en_GB
+locale: en_GB
+facebook:
+  publisher: KemuriSense
+logo:  /images/logos/kemuri-logo.png
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+
+
 twitter_username: kemurisense
 github_username:  kemurisense
 
@@ -21,6 +37,3 @@ markdown: kramdown
 
 sass:
   style: compressed
-
-plugins:
-  - jekyll-sitemap
