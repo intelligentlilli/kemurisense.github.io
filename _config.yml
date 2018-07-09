@@ -21,3 +21,6 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+plugins:
+  - jekyll-sitemap
