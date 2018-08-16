@@ -22,12 +22,13 @@ facebook:
 logo:  /images/logos/kemuri-logo.png
 
 
+webmaster_verifications:
+  google: Obc0bgbEMdjwcnaOLTG5XozG1XfECB9KlcVRVYZIXFY
+
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-
-
 
 twitter_username: kemurisense
 github_username:  kemurisense
