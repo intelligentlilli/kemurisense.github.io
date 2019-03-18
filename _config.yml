@@ -38,3 +38,12 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+
+# This is config for excluding areas from the jekyll-sitemap plugin
+defaults:
+  -
+    scope:
+      path:            "fonts"
+    values:
+      sitemap:         false
