@@ -396,11 +396,9 @@
     "alerts.less",
     "media.less",
     "responsive-embed.less",
-    "wells.less",
     "close.less",
     "component-animations.less",
     "dropdowns.less"
   ],
-  "js": [],
-  "customizerUrl": "<none>"
+  "js": []
 }
