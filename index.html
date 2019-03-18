@@ -111,14 +111,15 @@ excerpt: Kemuri are building a smart power socket to help elderly people live in
 </div>
 
 
-<div class="section section-grey  hidden" id="video-container">
+<div class="section section-grey" style="display:none" id="video-container">
   <div class="container featured">
     <div class="row">
       <div class="col-md-10 col-md-push-1">
         <div id="vidya" class="video-responsive-container"></div>
 
         <script>
-          document.getElementById("#video-container").removeClass("hidden"); // only show if js
+          // only show div if js
+          document.getElementById("#video-container").style.display = "block";
 
           var videoEl = document.getElementById("vidya");
 
@@ -128,7 +129,6 @@ excerpt: Kemuri are building a smart power socket to help elderly people live in
             videoEl.innerHTML = '<iframe class="video-responsive"  src="https://player.vimeo.com/video/148482822" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
           }
         </script>
-
       </div>
     </div>
   </div>
