@@ -118,12 +118,14 @@ excerpt: Kemuri are building a smart power socket to help elderly people live in
         <div id="vidya" class="video-responsive-container"></div>
 
         <script>
-          jQuery("#video-container").removeClass("hidden"); // only show if js
+          document.getElementById("#video-container").removeClass("hidden"); // only show if js
+
+          var videoEl = document.getElementById("vidya");
 
           if (Modernizr.video) {
-            jQuery("#vidya").html('<video class="video-responsive" controls poster="{{ site.baseurl }}/images/video-poster.jpg"><source src="{{ site.baseurl }}/videos/video-x-small.mp4" type="video/mp4" /></video>');
+            videoEl.innerHTML = '<video class="video-responsive" controls poster="{{ site.baseurl }}/images/video-poster.jpg"><source src="{{ site.baseurl }}/videos/video-x-small.mp4" type="video/mp4" /></video>';
           } else {
-            jQuery("#vidya").html('<iframe class="video-responsive"  src="https://player.vimeo.com/video/148482822" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+            videoEl.innerHTML = '<iframe class="video-responsive"  src="https://player.vimeo.com/video/148482822" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
           }
         </script>
 
