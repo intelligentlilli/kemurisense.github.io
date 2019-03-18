@@ -3,6 +3,7 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local('Nunito-Bold'),
        url('../fonts/nunito-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('../fonts/nunito-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -13,6 +14,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'),
        url('../fonts/lato-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('../fonts/lato-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -39,6 +41,7 @@ More instructions in /fonts/README.md
 
 @font-face {
   font-family: 'Kemuri Icon';
+  font-display: block; /* the icons can't be displayed in any other font */
   src: url('../fonts/k-icons.woff2') format('woff2'),
        url('../fonts/k-icons.woff') format('woff'),
        url('../fonts/k-icons.ttf') format('truetype');
