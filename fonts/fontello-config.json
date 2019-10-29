@@ -101,6 +101,12 @@
       "css": "info-circled",
       "code": 59400,
       "src": "fontawesome"
+    },
+    {
+      "uid": "f27bba41a700af51a4dd23cf4edea61d",
+      "css": "headphones",
+      "code": 59401,
+      "src": "fontawesome"
     }
   ]
 }
