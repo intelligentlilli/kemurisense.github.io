@@ -1,0 +1,45 @@
+---
+layout: default
+title: The Kemuri Team
+permalink: /blog/
+---
+
+
+<div class="section section-grey">
+	<div class="container">
+
+
+    <div class="row">
+      <div class="col-md-10 col-md-push-1">
+        <h2>News &amp; Press</h2>
+      </div>
+    </div>
+
+		<div class="row">
+			<div class="col-md-8 col-md-push-2">
+				<ul class="blog">
+				  {% for post in site.posts %}
+				    <li>
+				      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				      <p><span class="k-icon"></span> &nbsp; {{ post.date | date: "%b %-d, %Y" }}</p>
+				      <p>{{ post.excerpt }}</p>
+				    </li>
+				  {% endfor %}
+				</ul>
+
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
