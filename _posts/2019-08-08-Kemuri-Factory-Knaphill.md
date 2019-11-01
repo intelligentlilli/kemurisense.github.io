@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Kemuri impresses MP and Councillors"
+date:   2019-08-09 14:00:00 +0000
+categories: News
+---
+
+Woking’s MP, Jonathon Lord, visited the local factory that manufactures K-Sockets.  He was accompanied by three Woking councillors.  They were impressed by the quality of manufacturing possible in Woking and looked forward to seeing Kemuri’s services being deployed in the Borough.
+
+<figure>
+	<img class="full-width-for-retina" src="{{ site.baseurl }}/images/blog/LordEPS.jpg" />
+	<figcaption>Harvey Mancey, managing director of Electronic Production Services (EPS), explains how the machine accurately places tiny components on the electronic printed circuit boards (PCBs).</figcaption>
+</figure>
+
+Kemuri’s founder, Dr Leonard Anderson, explained that the Government knows that longevity is a growing problem and they need innovative solutions.  He invented K-Sockets to help people to live independently by using machine learning.  They are a cost-effective way of reducing days in hospital, care visits and the high cost of residential care.  Busy families gain reassurance that older people are managing to eat, drink and move around as normal.  Kemuri automatically alerts risks of falls, dehydration and hypothermia.
+
+<figure>
+	<img class="full-width-for-retina" src="{{ site.baseurl }}/images/blog/EPS.jpg" />
+	<figcaption>The MP and councillors holding the finished products.  Dr Leonard Anderson, CEO of Kemuri, and Harvey Mancey are in the background.</figcaption></figure>
