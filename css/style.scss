@@ -341,7 +341,7 @@ footer {
 }
 
 .blog li:not(:last-child) {
-  border-bottom: 1px solid #33cc33;
+  border-bottom: 3px solid #33cc33;
 }
 
 .post-title {
@@ -349,6 +349,7 @@ footer {
 }
 .post-meta {
 	margin-top:0;
+	color:#888;
 }
 
 
@@ -380,3 +381,38 @@ footer li {
 	display:block;
 	padding:0px 1em;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+
+	body {
+		  background-color:#333;
+		  color:#CCC;
+	}
+
+
+	.section-grey {	background-color:#555; color:#eee;}
+	.section-orange {	background-color:#f1852d; color:#ffffff;}
+	.section-green {	background-color:#33CC33; color:#ffffff;}
+	.section-white {	background-color:#444; color:#eee;}
+
+	.navbar-default {background-color:#333;}
+    .navbar-default .navbar-nav>li>a {
+		color:#CCC;
+		border-right-color:#aaa;
+    }
+    .navbar-default .navbar-nav>li>a:hover{
+    	color:#fff;background-color:#888
+    }
+}
+
+
