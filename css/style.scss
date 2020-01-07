@@ -286,12 +286,34 @@ textarea.form-control{padding-top:10px}
 
 
 
-footer {
+body>footer {
 	padding-top:1em;
 	padding-bottom:0;
 	clear:both;
 	background-color:#ccc;
 	color:#666;
+}
+
+body>footer a {
+	color:#999;
+}
+body>footer h2 {
+	text-align:left;
+	font-size:20px
+}
+body>footer ul {
+	list-style:none;
+	padding:0;
+	text-align:left;
+	font-size: 14px;
+}
+body>footer .k-icon {
+	display: inline-block;
+	width:1.5em;
+}
+body>footer li {
+	display:block;
+	padding:0px 1em;
 }
 
 
@@ -360,31 +382,26 @@ footer {
 }
 
 
-footer a {
-	color:#999;
-}
-footer h2 {
-	text-align:left;
-	font-size:20px
-}
-footer ul {
-	list-style:none;
-	padding:0;
-	text-align:left;
-	font-size: 14px;
-}
-footer .k-icon {
-	display: inline-block;
-	width:1.5em;
-}
-footer li {
-	display:block;
-	padding:0px 1em;
+
+.post blockquote>p {
+	font-style:italic;
+	quotes: "“" "”" "‘" "’";
+	margin-bottom:0;
+	padding-right:2em;
 }
 
-
-
-
+.post blockquote>p:before {
+    content: open-quote;
+}
+.post blockquote>p:after {
+    content: close-quote;
+}
+.post blockquote>footer {
+	text-align:right;
+}
+.post blockquote>footer:before {
+    content: " - ";
+}
 
 
 
