@@ -1,0 +1,43 @@
+---
+layout: default
+title: Kemuri Case Studies
+permalink: /case-studies/
+description: Case studies for users of the Kemuri socket.  All names have been changed for privacy reasons.
+---
+
+
+<div class="section section-grey">
+	<div class="container">
+	    <div class="row">
+	      <div class="col-md-10 col-md-push-1">
+	        <h1>Case Studies</h1>
+	        <p>The following case studies are based on real people and situations, but names have been changed to protect the privacy of the people involved.</p>
+	      </div>
+	    </div>
+
+
+		<div class="row">
+			<div class="col-md-8 col-md-push-2">
+				<ul class="blog">
+				  {% for post in site.categories.case-studies %}
+				    <li>
+				      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				      <p class="post-meta"><span class="k-icon"></span> &nbsp; <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+				      <p>{{ post.excerpt }}</p>
+				    </li>
+				  {% endfor %}
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
