@@ -383,23 +383,23 @@ body>footer li {
 
 
 
-.post blockquote>p {
+blockquote>p {
 	font-style:italic;
 	quotes: "“" "”" "‘" "’";
 	margin-bottom:0;
 	padding-right:2em;
 }
 
-.post blockquote>p:before {
+blockquote>p:before {
     content: open-quote;
 }
-.post blockquote>p:after {
+blockquote>p:after {
     content: close-quote;
 }
-.post blockquote>footer {
+blockquote>footer {
 	text-align:right;
 }
-.post blockquote>footer:before {
+blockquote>footer:before {
     content: " - ";
 }
 
