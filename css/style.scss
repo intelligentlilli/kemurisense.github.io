@@ -323,6 +323,10 @@ body>footer li {
 	padding-bottom:1em;
 }
 
+.partners div{
+	color:#ddd;
+}
+
 .partners li {
 	display:inline-block
 }
@@ -335,7 +339,7 @@ body>footer li {
 }
 
 .partners img:hover {
-	-webkit-transform: scale(2);
+	-webkit-transform: scale(1.5);
 }
 
 .internal-links {
