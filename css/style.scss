@@ -13,7 +13,7 @@ html{position:relative;min-height:100%}
 body{
   background-color:#ccc;
   color:#333;
-  font-family:Lato,Helvetica,Arial,sans-serif;
+  font-family:NunitoSans,"Helvetica Neue",Arial,sans-serif;
   font-weight:400;
   font-size:18px;
   padding-top:50px
@@ -25,8 +25,8 @@ a {
 
 .thumbnail{padding:0;border:0;border-radius:0; background-color: transparent}
 
-h1,h2{
-  font-family:Nunito,Helvetica,Arial,sans-serif;font-weight:700
+h1,h2,h3{
+  font-family:Nunito,"Helvetica Neue",Arial,sans-serif;font-weight:700
 }
 
 
@@ -115,7 +115,7 @@ ul {
 .navbar-default{background-color:#fff;border:none;margin-bottom:0;z-index:2000}
 .navbar-default .navbar-collapse,.navbar-default .navbar-form{border-color:#f83}
 .navbar-nav{margin:0 -15px}
-.navbar-default .navbar-nav>li>a{font-family:Lato,Arial,Helvetica,sans-serif;font-weight:400;font-size:.8em;color:#000}
+.navbar-default .navbar-nav>li>a{font-family:Nunito Sans,Helvetica,sans-serif;font-weight:400;font-size:.8em;color:#000}
 .navbar-default .navbar-nav>li>a:hover{color:#fff;background-color:#f83}
 .navbar-default .navbar-nav>.active>a{color:#ec008c;background-color:transparent}
 .navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#ec008c;background-color:#662d91}
