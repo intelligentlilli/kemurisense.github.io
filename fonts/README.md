@@ -1,4 +1,7 @@
-# Kemuri Fonts
+# Fonts
+
+
+# Kemuri old Fonts
 
 The k-icons was generated at http://fontello.com/ and is a small set of glyphs that we use on the website
 
@@ -14,3 +17,9 @@ This can be done from the config.json file that is in this folder.
 	> fontello-cli --config ./fontello-config.json install
 4.  copy the .ttf, .woff and .woff2 files into this directory
 5.  delete the subdirectory
+
+
+
+# New West Hill Fonts
+
+Are the fonts in the two subdirectories.  When we move over, we will only require these fonts
