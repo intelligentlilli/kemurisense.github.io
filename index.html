@@ -1,161 +1,45 @@
----
-layout: default
-title: Kemuri Smart Power Sockets
-additionalHeadContent: >
-  <script type="application/ld+json"> {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "url": "https://www.kemuri.co.uk/",
-    "logo": "https://www.kemuri.co.uk/images/logos/kemuri-logo.png",
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+44-01483-771234",
-      "contactType": "customer support",
-      "areaServed": "GB"
-    }]
-  } </script>
-    <script>
-    // custom Modernizr to detect html5 video, so we can redirect to Vimeo if it fails
-  /*! modernizr 3.6.0 (Custom Build) | MIT *
-   * https://modernizr.com/download/?-video-setclasses !*/
-  !function(e,n,a){function o(e,n){return typeof e===n}function s(){var e,n,a,s,t,c,r;for(var p in l)if(l.hasOwnProperty(p)){if(e=[],n=l[p],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(a=0;a<n.options.aliases.length;a++)e.push(n.options.aliases[a].toLowerCase());for(s=o(n.fn,"function")?n.fn():n.fn,t=0;t<e.length;t++)c=e[t],r=c.split("."),1===r.length?Modernizr[r[0]]=s:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=s),i.push((s?"":"no-")+r.join("-"))}}function t(e){var n=p.className,a=Modernizr._config.classPrefix||"";if(f&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+a+"no-js(\\s|$)");n=n.replace(o,"$1"+a+"js$2")}Modernizr._config.enableClasses&&(n+=" "+a+e.join(" "+a),f?p.className.baseVal=n:p.className=n)}function c(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):f?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}var i=[],l=[],r={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var a=this;setTimeout(function(){n(a[e])},0)},addTest:function(e,n,a){l.push({name:e,fn:n,options:a})},addAsyncTest:function(e){l.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var p=n.documentElement,f="svg"===p.nodeName.toLowerCase();Modernizr.addTest("video",function(){var e=c("video"),n=!1;try{n=!!e.canPlayType,n&&(n=new Boolean(n),n.ogg=e.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),n.h264=e.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),n.webm=e.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,""),n.vp9=e.canPlayType('video/webm; codecs="vp9"').replace(/^no$/,""),n.hls=e.canPlayType('application/x-mpegURL; codecs="avc1.42E01E"').replace(/^no$/,""))}catch(a){}return n}),s(),t(i),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
-  </script>
-excerpt: Kemuri are building a smart power socket to help elderly people live independently
----
-<!--
-<div class="home">
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kemuri</title>
+        <meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href=/css/holding.css>
 
-  <h1 class="page-heading">Posts</h1>
+	</head>
+	<body>
+		<main class="page__main main">
+			<section class="landing">
+				<div class="pullout">
+					<p><span class="underline underline--orange desktop">NEW WEBSITE</span><br/> <span class="underline underline--orange desktop">COMING SOON</span><span class="underline underline--orange mobile">NEW WEBSITE COMING SOON</span></p>
+					<i class="icon"></i>
+				</div>
+				<div class="table"><div class="cell middle">
+					<div class="container clearfix">
+						<div class="content  f-left">
+							<img src="/images/holding_page/logo-retina.png" alt="kimuri" class="logo">
+							<h1><span class="underline underline--green desktop">Safer independent living from</span><br/><span class="underline underline--green desktop">cost-effective technology</span><span class="underline underline--green mobile">Safer independent living from cost-effective technology</span></h1>
+							<p>Discover a smarter, more efficient way to help people live independently at home for longer.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  https://www.youtube.com/watch?v=rWe41W_drE8
-</div> -->
-
-
-
-
-
-
-<div class="section section-green" id="home" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-push-2 col-sm-8 col-sm-push-2 text-center separator">
-        <h1 style="text-align: center;">Safer independent living from cost-effective technology</h1>
-        <p style="text-align: center;">Discover a smarter, more efficient way to help people live independently at home for longer.</p>
-        <p style="text-align: center;">Kemuri technology monitors activity automatically and alerts carers and responders when there might be a problem - even when individuals can’t make that call themselves.</p>
-
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-8 col-md-push-2 text-center">
-        <h2>Which of these best describes you?</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-2 text-center">
-        <div class="large-white-icon k-icon"></div>
-      </div>
-      <div class="col-md-10 text-center">
-        <a class="path-choice" href="{{ site.baseurl }}/telecare-for-dementia-and-independent-living">
-          <h3><strong>A health or care commissioner</strong></h3>
-          <p>You commission reablement services for vulnerable people who are in hospital,
-          recently discharged or who need a care assessment. You are familiar with Care
-          Act Guidance and understand the legislation for funding reablement services and
-          personal budgets.</p>
-        </a>
-        <br/>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-2 text-center">
-        <div class="large-white-icon k-icon"></div>
-      </div>
-      <div class="col-md-10 text-center">
-        <a class="path-choice" href="{{ site.baseurl }}/telecare-for-sheltered-housing">
-          <h3><strong>A sheltered housing manager</strong></h3>
-          <p>You manage and run sheltered accommodation for vulnerable people living independently</p>
-        </a>
-        <br/>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-md-2 text-center">
-        <div class="large-white-icon k-icon"></div>
-      </div>
-      <div class="col-md-10 text-center">
-        <a class="path-choice" href="{{ site.baseurl }}/telecare-for-family">
-          <h3><strong>A family</strong></h3>
-          <p>An ageing family member wants to live independently in their own house, and you want reassurance they're OK</p>
-        </a>
-        <br/>
-      </div>
-    </div>
-
-
-  </div>
-</div>
-
-
-<div class="section section-grey" style="display:none" id="video-container">
-  <div class="container featured">
-    <div class="row">
-      <div class="col-md-10 col-md-push-1">
-        <div id="vidya" class="video-responsive-container"></div>
-
-        <script>
-          // only show div if js
-          document.getElementById("video-container").style.display = "block";
-
-          var videoEl = document.getElementById("vidya");
-
-          if (Modernizr.video) {
-            videoEl.innerHTML = '<video class="video-responsive" controls poster="{{ site.baseurl }}/images/video-poster.jpg"><source src="{{ site.baseurl }}/videos/video-x-small.mp4" type="video/mp4" /></video>';
-          } else {
-            videoEl.innerHTML = '<iframe class="video-responsive"  src="https://player.vimeo.com/video/148482822" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-          }
-        </script>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="section section-orange" id="kemurisense">
-  <div class="container featured">
-    <div class="row">
-      <div class="col-md-2 col-md-push-2 col-sm-4  col-xs-3 ">
-        <img src="{{ site.baseurl }}/images/white-plug-on-orange.jpg" class="align-center wp-post-image" alt="" title=""  style="width:100%; max-width:185px">
-      </div>
-      <div class="col-md-6 col-md-push-2 col-sm-8  col-xs-9 ">
-        <h1>KemuriSense</h1>
-        Kemuri informs family friends and carers whether a vulnerable person is  warm, eating, drinking and moving around as normal – to get peace of mind.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-8 col-md-push-2 text-center">
-        <p>&nbsp;</p>
-        <p class="k-icon large-white-icon">  &nbsp;  &nbsp;  &nbsp;  &nbsp; </p>
-        <p>People use their kettles and microwaves as normal. KemuriSense® smart power sockets measure motion, temperature, power usage and power supply. Data is sent continuously to the Internet without using broadband and even during power cuts. Non-stop operation. It’s common sense.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
+							<p>Kemuri technology monitors activity automatically and alerts carers and responders when there might be a problem, even when individuals can’t make that call themselves.</p>
+							<div class="contact-wrap">
+								<h4><span class="underline underline--orange">For investment enquiries please contact:</span></h4>
+								<p class="nmb">E: <a href="mailto:enquiries@westhillcapital.co.uk">enquiries@westhillcapital.co.uk</a></p>
+								<p class="nmb">T: <a href="tel:+442034407555">+44 (0)20 3440 7555</a></p>
+								<h4><span class="underline underline--orange">For general enquiries please contact:</span></h4>
+								<p class="nmb">E: <a href="mailto:hello@kemuri.co.uk">hello@kemuri.co.uk</a></p>
+								<p class="nmb">T: <a href="tel:++441483771234">+44 (0)1483 771234</a></p>
+							</div>
+						</div>
+						<div class="image f-right">
+							<img src="/images/holding_page/mobile-retina.png" class="desktop" alt="desktop">
+							<img src="/images/holding_page/mobile-mb-retina.png" class="mobile" alt="mobile">
+						</div>
+					</div>
+				</div></div>
+			</section>
+		</main>
+	</body>
+</html>
